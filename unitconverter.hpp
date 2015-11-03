@@ -4,10 +4,10 @@
 #include <iostream>
 #include <string>
 
-class converter
+class UnitConverter
 {
   public:
-    converter();
+    UnitConverter();
     virtual double convert(double inValue) = 0;
     virtual std::string toString() const = 0;
     virtual void print() const = 0;
